@@ -12,3 +12,21 @@
         .brown{
             color: brown;
         }
+        .box{
+            width: 400px;
+            height: 400px;
+            background-color: orange;
+            border: 7px solid;
+            border-color: black;
+            padding: 25px;
+            padding-bottom: 20px;
+            margin-bottom: 16px;
+            margin-left: 25px;
+           border-top-right-radius: 20px;
+           border-radius: 50px;
+        }
+        p{
+            text-align: center;
+            text-decoration: dotted;
+            font-size: 60px;
+        }
