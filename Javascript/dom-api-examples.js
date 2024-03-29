@@ -14,5 +14,3 @@ span.style.backgroundColor="yellow"
 para.appendChild(span);
 
 document.body.appendChild(para);
-//js script
-//hghg
