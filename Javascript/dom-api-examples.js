@@ -20,4 +20,9 @@ for(let hobby of hobbies){
     document.body.appendChild(list);
 }
 document.body.appendChild(para);
-//jbjk
+//get the element
+console.log(document.getElementById("first-para").textContent )
+console.log(document.getElementsByClassName("blue"));
+console.log(document.querySelectorAll("p"))
+console.log(document.querySelector("#first-para"));
+ 
