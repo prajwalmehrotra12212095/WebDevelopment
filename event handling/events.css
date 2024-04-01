@@ -1,0 +1,11 @@
+.box{
+    width: 400px;
+    height: 400px;
+    background: red;
+    padding: 16px;
+}
+.child{
+    background: blue;
+    width: 50%;
+    height: 50%;
+}
