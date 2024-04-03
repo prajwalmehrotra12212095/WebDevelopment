@@ -4,17 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>form tag</title>
+    <script src="forms.js"></script>
 </head>
 <body>
-    <form action ="login">
-        <lable for = "username">username</lable>
-       
-        <input type = "text" name = "username" id="username" />
+    <input type="text" id="outside" placeholder="this is the outside of form" / >
+    <form name="login">
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username" />
+        <label for="username">Email</label>
+        <input type="text" name="email" id="email" />
+        <label for="mobile">Mobile</label>
+        <input type="text" name="mobile" id="mobile" />
         <br>
-        <label for="password">password</label>
-    <input type = "text" name = "password" id="username" />
-    <br> 
-    <button type ="submit">login</button>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" />
+        <br> 
+        <button type="submit">Login</button>
     </form>
 </body>
 </html>
