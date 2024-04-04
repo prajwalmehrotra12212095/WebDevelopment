@@ -9,4 +9,9 @@
     width: 50%;
     height: 50%;
 }
-//jhhbh
+input:invalid{
+    outline: 2px solid red;
+}
+input:valid{
+    outline: 2px solid blue;
+}
