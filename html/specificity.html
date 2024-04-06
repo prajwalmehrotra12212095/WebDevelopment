@@ -11,12 +11,28 @@
         p{
             color: black;
         }
-       #id-level{
+       p#id-level{
         color: palevioletred;
+       }
+       .box{
+        width: 400px;
+        height: 400px;
+        padding: 15px;
+        background-color: coral;
+       }
+       .child{
+        box-sizing: border-box;
+        background-color: blue;
+        width: 100%;
        }
     </style>
 </head>
 <body>
     <p style="color: royalblue;" id="id-level" class="class-level">this is para for testing</p>
+    <h1></h1>
+<div class="box">
+<div class="box child"></div>
+<span>this is a span</span>
+</div>
 </body>
 </html>
