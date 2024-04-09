@@ -5,28 +5,37 @@
     <meta name="viewport" content="width=<p>, initial-scale=1.0">
     <title>Document</title>
     <style>
+        .another-box{
+            box-sizing: border-box;
+            width: 420px;
+            height: 400px;
+            background-color: royalblue;
+            position: absolute;
+            left: 40px;
+            z-index: 3;
+        }
          .class-level{
             color: blue;
         }
         p{
             color: black;
         }
-       p#id-level{
-        color: palevioletred;
-        position: relative;
-       }
+      
        .box{
         width: 400px;
         height: 400px;
         padding: 15px;
         background-color: coral;
+        z-index: 2;
        }
        .child{
         box-sizing: border-box;
         background-color: blue;
         width: 100%;
+        position: relative;
+        bottom: -20;
        }
-       /* p::after{
+       p::after{
         content: "*";
         color: red;
        } */
@@ -34,16 +43,46 @@
         color: lightblue;
         border: 4px solid;
 
-       } */
+       }
+       p#id-level{
+        color: palevioletred;
+        /* position: relative; */
+       }
+       strong{
+        color: black;
+        position: absolute;
+        top: -10px;
+       }
+       p.absolute{
+        position: absolute;
+        top: 0;
+        right: 20%;
+
+       }
+       section{
+        position: relative;
+        height: 200px;
+        border: 1px solid;
+        border-color: blue;
+        background-color: red;
+
+       }
+       .third{
+        left: 20%;
+        background-color: red;
+        z-index: 9999;
+       }
     </style>
 </head>
 <body>
-    <p style="color: royalblue;" id="id-level" class="class-level">this is para for testing</p>
-    
-<!--    
-<div class="box">
-<div class="box child"></div>
+    <!-- <p style="color: royalblue;" id="id-level" class="class-level">this is <strong>para</strong> for testing</p>
+    <section>
+    <p class="absolute">absolute positioned</p>
+    </section> -->
+   
+<div style="position: relative;"></div>
+    <div class="box"></div>
+<div class="box another-box third"></div>
 <span>this is a span</span>
-</div> -->
 </body>
 </html>
