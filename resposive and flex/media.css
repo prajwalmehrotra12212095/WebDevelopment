@@ -1,0 +1,31 @@
+/* body{
+    color: black;
+} */
+@media print {
+body {
+    background: gray;
+    color: black;
+    }
+}
+@media screen and (orientation: portrait){
+    body::after {
+        content: "Portrait";
+    }
+}
+@media screen and (orientation: landscape){
+    body::after {
+        content: "Landscape";
+    }
+}
+
+@media (max-width: 500px ){
+    body{
+        background-color: lightgreen;
+    }
+}
+@media all (min-width: 800px) and (orientation: landscape){
+    body{
+        background-color: blue;
+    }
+}
+/* types: print,screen,all */
