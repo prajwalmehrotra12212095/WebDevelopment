@@ -6,14 +6,31 @@ body{
     width: 300px;
     height: 300px;
     margin: 32px auto;
-    transition-property: transform;
+    /* transition-property: transform;
     transition-duration: 100ms;
     transition-delay: 1000ms;
-transition-timing-function: ease-in;
+transition-timing-function: ease-in; */
+/* transition: transform .5s 1s cubic-bezier(0.55, 0.22, 0.58, 1); */
+animation: rotation 1s infinite linear;
 }
-.box{
+/* .box{
    transform: scale(2); 
 }
 .box:hover{
-   transform: scale(1.2); 
+   transform: scale(1.2);
+}*/
+@keyframes rotation{
+ 0% {
+        transform: rotate(0);
+    }
+   25% {
+        transform: rotate(45deg);
+    }
+    50%{
+        transform: rotate(60deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }

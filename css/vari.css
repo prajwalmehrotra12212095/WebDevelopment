@@ -1,0 +1,23 @@
+
+:root{
+    --background-color: lightgreen;
+--text-color: white;
+}
+/* main{
+    --background-color: green;
+--text-color: white;
+background-color: var(--background-color);
+} */
+h1{
+    color: var(--text-color);
+}
+body{
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+@media(prefers-color-scheme: dark){
+body{
+    --background-color: black;
+    --text-color: white;
+}
+}
