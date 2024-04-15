@@ -10,22 +10,39 @@
         }
         .box{
             background-color: royalblue;
-            width: 300px;
+            width: 100px;
             height: 300px;
-            margin: 12px;
+            margin: 10px;
         }
         .container{
             display: flex;
+            /* flex-direction: column; */
+            max-height: 600px;
+            /* overflow: hidden; */
+            flex-wrap: wrap;
+            gap: 16px;
+            justify-content:center;
+            align-items: center;
 
+        }
+        .box.second{
+            flex-basis: 400px;
+            flex-grow: 2;
+            flex-shrink: 1;
+        }
+        .box.third{
+            flex: 50%;
         }
     </style>
 </head>
 <body>
     <main class = "container">
         <section class="box"></section> 
+        <section class="box second"></section> 
+        <section class="box third"></section> 
+        <!-- <section class="box"></section> 
         <section class="box"></section> 
-        <section class="box"></section> 
-        <section class="box"></section> 
+        <section class="box"></section>  -->
     </main>
    
 </body>
