@@ -3,14 +3,17 @@
     display: grid;
     /* grid-template-columns: var(--col-track-size) var(--col-track-size)  var(--col-track-size); */
     /* grid-template-columns: 2fr 2fr 2fr; */
-    grid-template-columns: 200px repeat(2, 1fr);
-    grid-template-rows: 200px;
+    /* grid-template-columns: 200px repeat(2, 1fr); */
+    grid-template-columns: repeat(3,200px);
+    /* autofill property will help to fill the automatic the things */
+    /* in the autofit no extraspace will left */
+    grid-template-rows: 200px 300px;
     gap: 16px;
-    widhth:400px;
+    /* width:400px; */
     border:2px solid;
     padding: 8px;
     }
     .container > div{
         background-color: lightblue;
     }
-    //
+    
