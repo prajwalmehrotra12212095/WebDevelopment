@@ -1,0 +1,10 @@
+.card{
+    width: 300px;
+    height: 500px;
+    border: 1px solid;
+    box-shadow: 5px 5px 20px 1px hsl(240deg, 80%, 90%);
+}
+.cards{
+    display: flex;
+    place-content: center;
+}
