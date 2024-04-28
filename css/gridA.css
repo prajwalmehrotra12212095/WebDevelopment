@@ -1,0 +1,29 @@
+.{
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: "header header header header"
+    "sidenav content cntent content"
+    "footer footer footer footer";
+    height: 100vh;
+
+}
+header{
+    background-color: lightpink;
+    grid-area: "header";
+}
+main{
+    background-color: lightblue;
+    grid-area: "content";
+}
+aside{
+    background-color: coral;
+    grid-area: "sidenav";
+}
+footer{
+    background-color: lightcoral;
+    grid-area: "footer";
+}
