@@ -11,6 +11,16 @@
     height: 100vh;
 
 }
+.container > * {
+    padding: 16px;
+    display: grid;
+    padding: 16px;
+    font-size: x-large;
+    font-weight: 600;
+    color: darkblue;
+    place-content: center;
+}
+
 header{
     background-color: lightpink;
     grid-area: "header";
@@ -27,4 +37,19 @@ footer{
     background-color: lightcoral;
     grid-area: "footer";
 }
-//
+@media (width <=500){
+    .container{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: auto 1fr auto;
+        grid-template-areas: "header header header header"
+        "content content cntent content"
+        "footer footer footer footer";
+        height: 100vh;
+    
+    } 
+    aside{
+        display: none;
+        
+    }
+}
