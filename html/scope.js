@@ -36,11 +36,14 @@ function printName(){
 function printAnotherName(){
     var myName = "john";
     console.log(myName);
-    printSomeOtherName();
+    //nested function
+    function printSomeOtherName(){
+        // var myName = "jane";
+        
+        console.log(myName);
+   
 }
-function printSomeOtherName(){
-    // var myName = "jane";
-    console.log(myName);
+printSomeOtherName();
 }
 console.log(myName);
 printName();
