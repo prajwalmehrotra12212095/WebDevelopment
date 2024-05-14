@@ -47,3 +47,4 @@ printSomeOtherName();
 }
 console.log(myName);
 printName();
+/
