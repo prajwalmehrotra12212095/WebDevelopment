@@ -27,4 +27,3 @@ console.log(document.getElementById("outside").value);
    })
    console.log(document.getElementById("outside").value);
 })
-''
