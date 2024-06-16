@@ -1,0 +1,12 @@
+h1{
+    background-color: pink;
+}
+p{
+    background-color: bisque;
+}
+#red{
+    background-color: red;
+}
+.blue,h2{
+background-color: blue;
+}
