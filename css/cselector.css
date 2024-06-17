@@ -10,3 +10,7 @@ p{
 .blue,h2{
 background-color: blue;
 }
+*{
+    padding: 200;
+    text-align: center;
+}
