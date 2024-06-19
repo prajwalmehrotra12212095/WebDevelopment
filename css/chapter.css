@@ -5,3 +5,13 @@
     background-color: pink;
     color: black;
    }
+   .red{
+    width: 334px;
+    height: 1744px;
+    border: 2px red;
+    background-image: url(../asset/download.jpg);
+    background-size: 63px 45px;
+    color: wheat;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+   }
