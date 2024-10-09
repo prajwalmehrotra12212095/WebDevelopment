@@ -26,7 +26,7 @@ let firstNumber = 10;
 //     function print() {
 //         console.log("this is printed in the console")
 //     }
-    print();
+   // print();
     //function expression
     const add = function addNumber(firstNumber,secondNumber) {
         return firstNumber + secondNumber
