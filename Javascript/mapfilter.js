@@ -24,3 +24,15 @@ let a2= arr2.filter((a)=>{
     return a<10
 })
 console.log(a2)
+
+//reduce array
+
+let arr3=[1,2,4,6]
+const reduce_func = (h1,h2) => {
+    return h1+h2
+}
+let newarr3 = arr3.reduce(reduce_func)
+// let newarr3 = arr3.reduce((h1,h2)=>{
+//     return h1+h2
+// })
+console.log(newarr3)
