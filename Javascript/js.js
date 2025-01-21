@@ -13,4 +13,4 @@ if(write){
 }
 else{
     document.write("please allow")
-} 
+} //
