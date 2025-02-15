@@ -41,5 +41,5 @@ bo.innerText = "click me";
 console.log(bo);
 
 let div = document.querySelector("div");
-div.append(bo)
+div.append(bo) 
 
