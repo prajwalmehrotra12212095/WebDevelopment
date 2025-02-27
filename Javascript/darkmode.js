@@ -12,4 +12,4 @@ modeBtn.addEventListener("click",() =>{
         document.querySelector("body").style.backgroundColor = "whiTe";
     }
     console.log(currMode);
-})/
+})
