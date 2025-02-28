@@ -41,6 +41,9 @@
 
 
 class Person{
+    constructor(){
+        this.species = "homo sapiebns";
+    }
     eat(){
         console.log("eat");
     }
@@ -50,7 +53,12 @@ sleep(){
 }
 
 class Engineer extends Person{
+    constructor(){
+        super();  //to invoke the parent classs constructor
+        this.branch = branch; 
+    }
     work(){
+        super.eat(); //we get details from parents class
         console.log("solve pronblem");
     }
 }
