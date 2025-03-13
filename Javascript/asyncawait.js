@@ -34,8 +34,8 @@ async function getAllData() {
 //iife
 
 (async function (){
-    console.log("geting data ");
+    console.log("geting data 1");
     await getData(1);
-    console.log("get data ");
+    console.log("get data 2");
     await getData(2);
 })();
