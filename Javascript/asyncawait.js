@@ -39,3 +39,4 @@ async function getAllData() {
     console.log("get data");
     await getData(2);
 })();
+//
