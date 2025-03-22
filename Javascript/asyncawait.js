@@ -38,4 +38,4 @@ async function getAllData() {
     await getData(1);
     console.log("get data");
     await getData(2);
-})();/
+})();
