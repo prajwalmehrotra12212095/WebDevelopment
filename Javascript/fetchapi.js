@@ -23,4 +23,5 @@ const getFacts = async () => {
 // }
 
 btn,addEventListener("click",getFacts);
+/
  
